@@ -25,7 +25,7 @@ enum Objetivo { emagrecimento, hipertrofia, condicionamento }
 enum Nivel { iniciante, intermediario, avancado }
 
 class PerfilTreinoPage extends StatefulWidget {
-  const PerfilTreinoPage({super.key});
+  const PerfilTreinoPage({Key? key}) : super(key: key);
 
   @override
   State<PerfilTreinoPage> createState() => _PerfilTreinoPageState();
